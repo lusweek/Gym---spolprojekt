@@ -1,0 +1,7 @@
+.desktop-login{
+    width: 450px;
+    height: 300px;
+    background: rgba(0, 39, 84, 0.5);
+    float: right;
+    box-shadow: inset 0px 7px 3px -3px rgba(50, 50, 50, 0.1);
+}

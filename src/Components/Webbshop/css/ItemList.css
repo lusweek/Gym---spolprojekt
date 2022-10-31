@@ -1,0 +1,23 @@
+.ItemList{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0 10px;
+    padding: 0 10px;
+    position: relative;
+    top: 10vh;
+    margin-bottom: 10vh;
+}
+.list-section{
+    width: 100%;
+    border-top: 3px solid rgba(242, 242, 242, 255);
+}
+.list-title{
+    font-size: 22px;
+    padding: 10px 5px 7.5px;
+}
+@media (min-width: 800px){
+    .ItemList{
+      padding: 0 30px;
+    }
+}

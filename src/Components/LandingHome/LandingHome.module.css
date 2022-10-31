@@ -1,0 +1,77 @@
+.LandingPage {
+  top: 0px;
+  margin-bottom: 0.7rem;
+  z-index: 1;
+  display: inline-block;
+  position: relative;
+  display: flex;
+  justify-content:center;
+}
+
+.gymImgDesktop {
+  width: 100%;
+}
+
+.landingButton {
+  background-color: hsl(200, 33%, 49%, 0.5);
+  position: absolute;
+  border: none;
+  left: 4%;
+  bottom: 6%;
+  border-radius: 10px;
+  width: 14rem;
+  color: #fffcf5;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 0.4rem;
+}
+.landingButton:hover {
+  background-color: rgba(115, 167, 193, 0.75);
+  transition: 0.2s;
+}
+
+.landingButton h2 {
+  font-weight: lighter;
+  text-decoration: underline;
+  font-size: 26px;
+}
+
+.landingButton h3 {
+  font-weight: lighter;
+  font-size: 22px;
+  margin-top: 0;
+}
+.landingImage img {
+  width: 100vw;
+  height: 40vh;
+  object-fit: cover;
+}
+
+@media (min-width: 800px) {
+  .gymImgDesktop {
+    display: flex;
+    justify-content: center;
+  }
+
+  .gymImgDesktop img {
+    height: 80vh;
+    object-fit: cover;
+  }
+
+  .landingButton {
+    width: 26rem;
+  }
+
+  .landingButton h2 {
+    font-size: 40px;
+  }
+
+  .landingButton h3 {
+    font-size: 30px;
+  }
+  .landingImage img {
+  width: 95vw;
+}
+}

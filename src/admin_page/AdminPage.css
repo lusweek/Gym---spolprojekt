@@ -1,0 +1,622 @@
+button {
+  margin: 10px;
+}
+#top-admin {
+  position: relative;
+  top: 14vh;
+  margin-bottom: 8rem;
+}
+
+/* 
+input,
+select {
+  margin: 10px;
+} */
+
+.style-admin-add {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.m10 {
+  margin: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.left {
+  left: 20px;
+}
+
+.left {
+  left: 20px;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.center-newpass {
+  border-radius: 10px;
+  background: #dde6e6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+  margin: 15px auto 15px auto;
+  width: 90%;
+}
+
+.center-products {
+  border-radius: 10px;
+  background: #dde6e6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+  margin: 15px auto 15px auto;
+  width: 90%;
+}
+
+.center-employes {
+  border-radius: 10px;
+  background: #dde6e6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+  margin: 15px auto 15px auto;
+  width: 90%;
+}
+
+.update-modal-wrapper {
+  min-height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  padding: 0 0 40px 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  z-index: 1;
+}
+
+.update-modal h1 {
+  margin: 10px;
+  font-size: 23px;
+}
+
+.input-div h1 {
+  margin: 10px;
+}
+
+.m30 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.m30 input {
+  width: 14rem;
+  height: 2rem;
+  border-radius: 10px;
+  border: 1px solid #548ca8;
+  font-size: 20px;
+}
+
+.m30 p {
+  width: 100%;
+  text-align: center;
+}
+
+.m30 button {
+  margin: 5px;
+}
+
+.m30 h3 {
+  margin-bottom: 1rem;
+}
+#serchIdPass,
+#serchId,
+#serchIdProdukter,
+#staff-input-3 {
+  width: 16rem;
+  height: 2rem;
+  border-radius: 10px;
+  border: 1px solid #548ca8;
+  font-size: 18px;
+}
+#staff-input-3 {
+  height: 4rem;
+}
+.close-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.pen-icon {
+  width: 19px;
+  height: 19px;
+}
+
+.staff-card-admin {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  text-align: center;
+  border-radius: 10px;
+  width: 250px;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 10px;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.staff-card-admin p {
+  text-align: center;
+}
+
+.staff-text {
+  margin: 10px 0 65px 0;
+}
+
+.line {
+  width: 80%;
+  height: 1px;
+  background-color: rgb(170, 170, 170);
+  margin: 40px 10%;
+}
+
+.staff-img1 {
+  width: 55%;
+
+  object-fit: contain;
+  border: 1px solid rgba(0, 39, 84, 0.5);
+  border-radius: 10px;
+  box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, 0.1);
+}
+.modal-produktNamn {
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: rgba(0, 39, 84);
+}
+.modal-pris {
+  margin-top: -16px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: rgba(0, 39, 84);
+}
+
+.modal-kategori {
+  margin-top: -7px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: rgba(0, 39, 84);
+}
+
+#preview-modal {
+  width: 80%;
+  max-width: 500px;
+  max-height: 50%;
+}
+
+#preview-produkt {
+  border: solid 1px gray;
+  max-height: 200px;
+}
+
+.modal-img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-input-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  margin: auto;
+}
+
+/* .modal-img-wrapper input {
+  margin-left: 72px;
+  font-size: 12px;
+} */
+
+.column {
+  flex-direction: column;
+}
+
+/* .modal-input-wrapper input {
+  height: 20px;
+  margin-left: 0px;
+} */
+
+.modal-input-wrapper p {
+  margin: 0px;
+}
+
+.modal-input-wrapper-level {
+  display: flex;
+  text-align: left;
+}
+
+.modal-input-wrapper-level input,
+select {
+  height: 10%;
+  display: flex;
+  text-align: left;
+}
+
+.img-produkt {
+  width: 21%;
+}
+
+.map-article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#preview {
+  max-height: 200px;
+}
+
+/*KAENDER*/
+
+/* 
+.react-calendar {
+  width: 370px;
+  max-width: 100%;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background: white;
+  line-height: 1.125em;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+}
+.react-calendar--doubleView {
+  width: 700px;
+}
+.react-calendar--doubleView .react-calendar__viewContainer {
+  display: flex;
+  margin: -0.5em;
+}
+.react-calendar--doubleView .react-calendar__viewContainer > * {
+  width: 50%;
+  margin: 0.5em;
+}
+.react-calendar,
+.react-calendar *,
+.react-calendar *:before,
+.react-calendar *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.react-calendar button {
+  margin: 0;
+  border: 0;
+  padding: 20px;
+  outline: none;
+}
+.react-calendar button:enabled:hover {
+  cursor: pointer;
+}
+.react-calendar__navigation {
+  display: flex;
+  height: 44px;
+  margin-bottom: 3em;
+}
+.react-calendar__navigation button {
+  min-width: 44px;
+  font-size: 20px;
+  background: none;
+  padding-bottom: 50px;
+}
+.react-calendar__navigation button:disabled {
+  background-color: #f0f0f0;
+}
+.react-calendar__navigation button:enabled:hover,
+.react-calendar__navigation button:enabled:focus {
+  background-color: #4a59982e;
+}
+
+.modal-button {
+  font-size: 20px;
+
+  width: 100%;
+  padding: 12px 12px 12px 12px;
+  background-color: rgb(226, 237, 237);
+}
+
+.react-calendar__month-view__weekdays {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.75em;
+}
+.react-calendar__month-view__weekdays__weekday {
+  padding: 0.5em;
+}
+.react-calendar__month-view__weekNumbers .react-calendar__tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75em;
+  font-weight: bold;
+}
+.react-calendar__month-view__days__day--weekend {
+  color: #d10000;
+}
+.react-calendar__month-view__days__day--neighboringMonth {
+  color: #757575;
+}
+.react-calendar__year-view .react-calendar__tile,
+.react-calendar__decade-view .react-calendar__tile,
+.react-calendar__century-view .react-calendar__tile {
+  padding: 2em 0.5em;
+}
+.react-calendar__tile {
+  max-width: 100%;
+  padding: 10px 6.6667px;
+  background: none;
+  text-align: center;
+  line-height: 16px;
+}
+.react-calendar__tile:disabled {
+  background-color: #f0f0f0;
+}
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus {
+  background-color: #e6e6e6;
+}
+.react-calendar__tile--now {
+  background: #ffff76;
+}
+.react-calendar__tile--now:enabled:hover,
+.react-calendar__tile--now:enabled:focus {
+  background: #ffffa9;
+}
+.react-calendar__tile--hasActive {
+  background: #76baff;
+}
+.react-calendar__tile--hasActive:enabled:hover,
+.react-calendar__tile--hasActive:enabled:focus {
+  background: #a9d4ff;
+}
+.react-calendar__tile--active {
+  background: #006edc;
+  color: white;
+}
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
+  background: #1087ff;
+}
+.react-calendar--selectRange .react-calendar__tile--hover {
+  background-color: #e6e6e6;
+} */
+
+/*  */
+.pass-card img {
+  position: absolute;
+  left: 33px;
+  height: 50px;
+  width: 50px;
+  bottom: 80px;
+}
+
+.pass-card img {
+  bottom: 37px !important;
+}
+
+/* START: KNAPP */
+
+.myButton {
+  background: #ffffff;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  display: inline-block;
+  cursor: pointer;
+  color: #548ca8;
+  font-size: 13px;
+  padding: 6px 6px;
+  text-decoration: none;
+}
+
+.myButton:hover {
+  background: linear-gradient(to bottom, #cfe0e9 5%, #b3b4cd 100%);
+}
+
+.myButtonDelete {
+  background: #ffffff;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  display: inline-block;
+  cursor: pointer;
+  color: #548ca8;
+  font-size: 13px;
+  padding: 6px 6px;
+  text-decoration: none;
+}
+
+.myButtonDelete:hover {
+  background: linear-gradient(to bottom, #9c6a1f 5%, #b92d2b 100%);
+  background-color: #9c471f;
+}
+
+.admin-buttons {
+  cursor: pointer;
+  background: #548ca8;
+  width: 70%;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  color: #ffffff;
+  font-size: 20px;
+  height: 4rem;
+  margin-top: 5rem;
+  box-shadow: 0px 10px 10px rgb(0 0 0 / 13%);
+}
+
+.admin-buttons:hover {
+  transform: scale(1.01);
+  transition: 0.05s;
+}
+
+/* Product */
+.input {
+  border-radius: 10px;
+  border: 1px solid #548ca8;
+  font-size: 18px;
+}
+.input-con {
+  border-radius: 5%;
+  border: 3px solid rgb(172, 172, 173);
+}
+#product-name {
+  width: 100%;
+  text-align: center;
+}
+.product-button {
+  background: #548ca8;
+  width: 40%;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 16px;
+  height: 7vh;
+
+  box-shadow: 0px 10px 10px rgb(0 0 0 / 13%);
+}
+
+.update-modal {
+  width: 60vw;
+  height: 90vh;
+  background-color: rgb(227 227 227);
+  border-radius: 3px;
+  position: relative;
+  overflow: auto;
+  top: 63px;
+  margin: 0 0 100px 0;
+}
+
+.staff-img-pr {
+  width: 25%;
+  margin-top: 15px;
+  margin-left: 48px;
+  border: 1px solid rgba(0, 39, 84, 0.5);
+  border-radius: 10px;
+  box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, 0.1);
+}
+.drop-down-k {
+  display: inline-block;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 5px;
+  border-radius: 5px;
+}
+.modal-input-wrapper-storlek {
+  padding: 5px;
+  margin: 2px 0;
+
+  display: inline-block;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* staff */
+
+.staff-img {
+  margin: 10px;
+  max-width: 80%;
+  max-height: 20vh;
+  border-radius: 14px;
+}
+
+.pass-wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 800px) {
+  #admin-pass-card {
+    width: 22%;
+    margin: 0.4rem;
+    min-height: 230px;
+  }
+  .admin-calendar {
+    transform: scale(0.8);
+    margin: 0;
+  }
+  .style-admin-add {
+    margin-top: 0;
+  }
+  .admin-buttons {
+    width: 16rem;
+  }
+  #product-desktop {
+     width: 50vw;
+    height: 14rem;
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap:wrap;
+margin-bottom: 10vh;
+  }
+  #pass-desktop {
+    width:50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+  }
+
+ 
+
+  /* .calendar-wrapper{
+    width: 50%;
+    position: relative;
+    left: 25%
+  }
+
+  #staff-input {
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  #staff-input-1, #staff-input-2 {
+    width: 50%;
+  } */
+}

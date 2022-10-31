@@ -1,0 +1,95 @@
+ 
+.personal-main{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+  top: 11vh;
+  margin-bottom: 11vh;
+}
+
+.StaffBtn{
+  cursor: pointer;
+  width: 124px;
+  height: 42px;
+  margin: 5px;
+  border-radius: 10px;
+  font-weight: 600;
+  border: none;
+  margin: 10px;
+}
+
+.StaffBtn:hover {
+  border: 4px solid rgba(115, 167, 193);
+  transition: 0.1s;
+}
+.personal-header{
+  padding-top: 10px;
+  padding-left: 20px;
+  color: black;
+  text-align: left;
+}
+
+
+.image_box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.image_box ul {
+  width: 140px;
+  padding: 0;
+  margin: 10px;
+}
+.image_box img {
+  width: 140px;
+  height: 160px;
+  object-fit: cover;
+  align-items: center;
+}
+
+.details p:nth-child(1) {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.details p:nth-child(2) {
+  color: rgb(48, 47, 47);
+  font-size: 1rem;
+}
+.details p:nth-child(3) {
+  font-size: 1rem;
+  margin-top: 7px;
+  color: grey;
+}
+
+.nav_con {
+  text-align: center;
+  background: #dde6e6;
+  margin: 0 10px;
+  border-radius: 10px;
+  margin: auto;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  margin-bottom: 10px;
+}
+
+.nav_con h1 {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+h4 {
+  display: table-caption;
+}
+.text {
+  display: inline-block;
+}
+@media (min-width: 800px) {
+  .personal-main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    top: 11vh;
+    margin-bottom: 11vh;
+  }
+}

@@ -1,0 +1,394 @@
+
+/* Modal Style */
+.modal{
+position: absolute;
+width: 398px;
+height: 1195px;
+left: 0px;
+top: 0px;
+
+background: #DDE6E6;
+}
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1040;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .modal-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1050;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    outline: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .modal-close-button {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #000;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+  }
+
+
+
+
+
+/* Personuppgifter */
+
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .titleKassa{
+  position: absolute;
+  width: 228px;
+  height: 30px;
+  left: 20px;
+  top: 30px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+
+  color: #000000;
+  }
+
+  .infoKassa{
+
+position: absolute;
+width: 246px;
+height: 30px;
+left: 20px;
+top: 75px;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 35px;
+display: flex;
+align-items: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+  }
+
+  .namnKassa{
+position: absolute;
+width: 96px;
+height: 26px;
+left: 20px;
+top: 144px;
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 26px;
+color: #000000;
+  }
+  .namnInput{
+    box-sizing: border-box;
+
+position: absolute;
+width: 336px;
+height: 48px;
+left: 20px;
+top: 183.75px;
+
+background: rgba(255, 255, 255, 0.5);
+border: 1px solid rgba(93, 114, 139, 0.75);
+border-radius: 10px;
+  }
+  .eftKassa{
+  position: absolute;
+  width: 114px;
+  height: 26px;
+  left: 20px;
+  top: 231.75px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+  }
+
+  .eftInput{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 336px;
+  height: 48px;
+  left: 20px;
+  top: 271.75px;
+
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(93, 114, 139, 0.75);
+  border-radius: 10px;
+  }
+
+  .telKassa{
+position: absolute;
+width: 170px;
+height: 26px;
+left: 20px;
+top: 334px;
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 26px;
+
+color: #000000;
+  }
+
+  .telInput{
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 336px;
+    height: 48px;
+    left: 20px;
+    top: 379.75px;
+
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(93, 114, 139, 0.75);
+    border-radius: 10px;
+  }
+.adressKassa{
+    position: absolute;
+    width: 74px;
+    height: 26px;
+    left: 20px;
+    top: 455px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+
+    color: #000000;
+}
+
+  .GataInput{
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 336px;
+    height: 48px;
+    left: 20px;
+    top: 502px;
+
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(93, 114, 139, 0.75);
+    border-radius: 10px;
+  }
+
+  .postInput{
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 164px;
+    height: 48px;
+    left: 20px;
+    top: 560px;
+
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(93, 114, 139, 0.75);
+    border-radius: 10px;
+  }
+
+  .stadInput{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 336px;
+    height: 48px;
+    left: 20px;
+    top: 615px;
+
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(93, 114, 139, 0.75);
+    border-radius: 10px;
+  }
+  hr{
+
+    position: absolute;
+    width: 358px;
+    height: 0px;
+    left: 20px;
+    top: 686px;
+
+    border: 1px solid rgba(0, 112, 244, 0.5);
+  }
+
+  /* Form Betalningssätt */
+
+  .textForm{
+    position: absolute;
+    width: 228px;
+    height: 30px;
+    left: 26px;
+    top: 686px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+
+    color: #000000;
+  }
+
+  .kassaForm{
+
+  position: absolute;
+  width: 344px;
+  height: 130px;
+  left: 26px;
+  top: 746px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  }
+
+  .klarnaIm{
+position: absolute;
+width: 215px;
+height: 72px;
+left: 123px;
+top: 29px;
+
+
+background: url(../../images/klarna.jpg);
+
+  }
+
+  .klarnaTextForm{
+    position: absolute;
+    width: 109px;
+    height: 34px;
+    left: 10px;
+    top: 48px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+
+    color: #548CA8;
+
+  }
+
+  .kassaFormV{
+
+    position: absolute;
+    width: 344px;
+    height: 130px;
+    left: 26px;
+    top: 906px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+  }
+
+  .visaIm{
+
+position: absolute;
+width: 215px;
+height: 72px;
+left: 123px;
+top: 29px;
+
+  
+background: url(../../images/visa.jpg);
+  }
+
+  .visaTextForm{
+
+    position: absolute;
+    width: 109px;
+    height: 36px;
+    left: 10px;
+    top: 47px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+
+    color: #548CA8;
+  }
+
+  .kassaFormS{
+    position: absolute;
+    width: 344px;
+    height: 130px;
+    left: 26px;
+    top: 1056px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+  }
+
+  .swishIm{
+
+  position: absolute;
+  width: 215px;
+  height: 72px;
+  left: 127px;
+  top: 29px;
+  background: url(../../images/swish.jpg);
+  }
+
+  .swishTextForm{
+    position: absolute;
+    width: 109px;
+    height: 36px;
+    left: 10px;
+    top: 47px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+
+    color: #548CA8;
+  }
+  

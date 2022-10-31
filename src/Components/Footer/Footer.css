@@ -1,0 +1,116 @@
+/* -----------------------------  Footer ---------------------------------- */
+/* ------------------------------------------------------------------------ */
+
+.footer {
+  background: #6595ca;
+  font-size: 1rem;
+  color: black;
+  height: auto;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  margin-top: 6rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.wrapper {
+  list-style-type: none;
+
+  font-size: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.wrapper a {
+  text-decoration: none;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-icons {
+  color: white;
+}
+
+.footer-icon {
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin: 0.8rem;
+  height: 40px;
+  width: 40px;
+}
+
+.footer-icon:hover {
+  color: #cfeeff;
+}
+
+#footer-link {
+  cursor: pointer;
+  padding: 1rem;
+  text-align: center;
+  color: white;
+}
+
+#footer-link:hover {
+  color: #cfeeff;
+}
+
+.footer-subheading {
+  font-size: 24px;
+  text-align: left;
+}
+
+.footer-desc {
+  font-weight: 100;
+  text-align: center;
+  color: white;
+}
+
+.footer-desc p {
+  margin-top: 1rem;
+}
+.footer-opening-hours{
+  color: white;
+  margin-top: 1rem;
+}
+#social-section {
+  text-align: center;
+}
+
+.contact {
+  padding-bottom: 1rem;
+  font-weight: lighter;
+}
+
+@media (min-width: 800px) {
+  .wrapper {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #footer-link {
+    margin-left: 2rem;
+  }
+
+  #social-section {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .footer-icon {
+    height: 30px;
+    width: 30px;
+  }
+  
+  .contact {
+    padding-left: 8.6rem;
+    padding-bottom: 1rem;
+  }
+}

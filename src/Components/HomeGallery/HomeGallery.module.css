@@ -1,0 +1,123 @@
+.GallerySection{
+    color: white;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    background: rgba(84, 140, 168, 0.2);
+    width: 95%;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 0.7rem;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+.prevBtn svg, .nextBtn svg{
+    width: 70px;
+    height: 70px;
+  }
+.GalleryInfo{
+    padding-top: 10px;
+    color: black;
+    margin-left: 16px;
+    margin-bottom: 10px;
+}
+
+
+.GalleryInfo h3{
+    margin-top: 0px;
+    margin-bottom: 4px;
+    text-align: left;
+    font-size: 26px;
+}
+
+.GalleryInfo p{
+    text-align: left;
+    font-size: 22px;
+    margin-top: 0px;
+    margin-bottom: 4px;
+}
+.galleryImg{
+    position: relative;
+}
+.nextBtn  {
+    position: absolute; /* Remove the element from normal flow */
+    top: 45%; right: 0;
+}
+.prevBtn {
+
+    position: absolute;
+    top: 45%; left: 0;
+}
+.flexrow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: scroll;
+    scroll-behavior: smooth;
+
+}
+.selectedImg{
+    border:  5px solid white;
+}
+
+.nonSelected{
+    border: 5px solid transparent;
+  
+}
+
+@media screen and (min-width: 800px) {
+    .GallerySection{
+        align-items: center;
+        height: 480px;
+        display: flex;
+        width: 97%;
+        flex-direction: row;
+       justify-content: space-between;
+    }
+    .GalleryInfo{
+        width: 16%;
+        text-align: left;
+        padding: 0;
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        margin-left: 20px;
+        margin-top: 4vh;
+    }
+    .GalleryInfo p{
+        font-size: 20px;
+        font-weight: lighter;
+    }
+    .GalleryInfo h3{
+        font-size: 30px;
+    }
+    .galleryImg{
+        width: 43%;
+        display: flex;
+     align-items: center;
+     justify-content: center;
+    }
+    .galleryImg img{
+     height: 380px;
+    }
+    .flexrow{
+overflow: hidden;
+        width: 390px;
+        height: 80%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+ .selectedImg, .nonSelected {
+    width: 45%;
+    height: 30%;
+ }
+ .selectedImg img, .nonSelected img {
+   width: 100%;
+   height: 100%;
+
+ }
+}
+
+

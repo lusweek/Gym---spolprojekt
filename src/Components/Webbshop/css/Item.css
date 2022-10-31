@@ -1,0 +1,37 @@
+.Item{
+    width: 180px;
+    display: flex;
+}
+.item-card{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.item-info{
+    position: relative;
+}
+.item-img{
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    opacity: 0.9;
+}
+.info-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item-price{
+    font-size: 18px;
+    font-weight: 600;
+    color: #548CA8;
+}
+.item-title{
+    font-size: 18px;
+    color: #548CA8;
+    padding: 0 5px;
+}
+@media (min-width: 800px){
+    .Item{
+      width: 200px;
+    }
+}

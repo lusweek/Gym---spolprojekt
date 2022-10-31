@@ -1,0 +1,91 @@
+.modaloverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1040;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+
+  }
+      
+  .modalWrapper{
+    width: 80%;
+    margin: auto;
+    margin-top: 5vh;
+    background-color: #DDE6E6;
+    padding: 20px;
+ 
+  }
+  .closeBtn{
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    font-size: 40px;
+    padding: 0;
+    margin: 0px 0px auto auto;
+    text-align: right;
+    width: 100%;
+  }
+  .h2Payment{
+    font-size: 25px;
+  }
+  .h3Payment {
+    color: #0070F4;
+  }
+  .alternative {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    padding: 0 20px;
+    margin: auto;
+    background-color:  #FFFFFF;
+margin-bottom: 10px;
+border-radius: 10px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+height: 130px;
+cursor: pointer;
+  }
+  .alternative:hover, .alternative:focus {
+    background-color:  #ffffff74;   
+    border: 1px solid  #0070f93c
+}
+  .alternative h3 {
+    color: #548CA8;
+    font-weight: 200;
+  }
+
+
+
+  .alternativeImg
+  {
+    width: 60%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .alternativeImg img
+  {
+   
+    width: 100%;
+    object-fit: contain;
+  }
+
+
+
+
+@media screen and (min-width: 800px){
+  .modalWrapper{
+    width: 40%;
+  }
+  .h2Payment{
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+}

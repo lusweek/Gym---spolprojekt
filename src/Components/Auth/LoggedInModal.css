@@ -1,0 +1,36 @@
+#check-modal{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0px;
+    background-color: rgba(0, 0, 0, .5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.booking-modal{
+    background-color: #344257;
+    padding: 30px;
+    color: white;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+}
+
+.booking-modal button{
+    font-size: 16px;
+    width: 50px;
+    align-self: center;
+    cursor: pointer;
+}
+
+.check-icon{
+    color: green;
+    align-self: center;
+    font-size: 120px;
+}
+
+.booking-modal a{
+    color: white;
+}

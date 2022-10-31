@@ -1,0 +1,346 @@
+/*  */
+.register-button-mypages {
+width: 130px;
+height: 40px;
+}
+.profile-wrapper,
+.login-wrapper {
+  position: relative;
+  top: 10vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+  top: 11vh;
+  margin-bottom: 11vh;
+}
+
+.profile-wrapper h3{
+    font-size: 26px;
+  width: 70%;
+  padding-left: 20px;
+
+} 
+.bokade-pass-box{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.booking-icon-mypages{
+    bottom: 37px !important;
+}
+.profile-left,
+.profile-right,
+.bokade-pass {
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background: #dde6e6;
+  width: 95%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 0.7rem;
+  padding-bottom: 18px;
+  padding-top: 8px;
+}
+
+
+
+.profile-img {
+  width: 200px;
+  height: 200px;
+  max-width: 20vw;
+  max-height: 20vw;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0px auto auto 20px;
+  flex-wrap: wrap;
+}
+
+/* modal  */
+.update-modal-wrapper-mypages {
+  min-height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  z-index: 1;
+}
+#update-btn {
+  cursor: pointer;
+}
+.modal-img-wrapper-mypages {
+  width: 50%;
+  text-align: center;
+}
+.update-modal-mypages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  padding-bottom: 10px;
+  background-color: #dde6e6;
+}
+.input-div {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 5px;
+}
+.staff-img {
+  margin-top: 20px;
+}
+.close-icon-mypages {
+  position: absolute;
+  right: 15px;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.input-div input {
+  width: 90%;
+  height: 44px;
+  background-color: #05060f1b;
+  border-radius: 0.5rem;
+  margin: 0;
+  border: 2px solid transparent;
+  font-size: 1rem;
+  transition: border-color 0.3s cubic-bezier(0.25, 0.01, 0.25, 1) 0s,
+    color 0.3s cubic-bezier(0.25, 0.01, 0.25, 1) 0s,
+    background 0.2s cubic-bezier(0.25, 0.01, 0.25, 1) 0s;
+}
+.input-div input:hover,
+.input-div input:focus,
+.input-div:hover .input {
+  outline: none;
+  border-color: #05060f64;
+}
+.update-modal h4{
+    font-size: 18px;
+    }
+    .chosen-card{
+        border: solid transparent;
+    border-radius: 10px;
+    border-width: 0 0 4px;
+    color: #FFFFFF;
+    text-align: center;
+    width: 41%; 
+    height: 13vh;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+.input-div:hover .label,
+.input-div:focus {
+  color: #05060fc2;
+}
+.input-divs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.update-modal h4 {
+  font-size: 18px;
+}
+
+.m30-mypages button, .m30-mypages-continue button{
+  width: 130px;
+  height: 44px;
+  background: rgba(84, 140, 168, 0.5);
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  border-radius: 10px;
+  font-size: 18px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.m30-mypages-continue{
+ width: 100%;
+ display: flex;
+ justify-content: center;
+}
+
+/* modal */
+
+/* offer member cards start */
+#ChoosenBtn {
+    width: 70%;
+ margin: 10px auto;
+}
+.OfferSection{
+    text-align: center;
+    background: #DDE6E6;
+border-radius: 10px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+
+}
+
+.OfferInfo {
+  text-align: left;
+  color: black;
+  width: 70%;
+}
+
+.OfferOne,
+.OfferTwo,
+.OfferThree,
+.OfferFour {
+  border: solid transparent;
+  border-radius: 10px;
+  border-width: 0 0 4px;
+  color: #ffffff;
+  text-align: center;
+  width: 41%;
+  height: 13vh;
+  font-size: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.OfferOne {
+  background: rgba(0, 112, 244, 0.3);
+}
+.OfferTwo {
+  background: rgba(0, 112, 244, 0.5);
+}
+.OfferThree {
+  background: rgba(0, 112, 244, 0.75);
+}
+.OfferFour {
+  background: #5d788b;
+}
+.OfferOne,
+.OfferThree {
+  margin: auto auto 36px 20px;
+}
+.OfferTwo,
+.OfferFour {
+  margin: auto 20px 36px auto;
+}
+
+.rowOne {
+  text-align: left;
+  font-weight: 100;
+  margin: 0px;
+  padding-top: 15px;
+  font-size: 20px;
+}
+
+.rowTwo {
+  margin: 0px;
+  padding-top: 10px;
+  text-align: left;
+  font-weight: 400;
+  font-size: 25px;
+}
+/* offer membercards end */
+
+.update-and-title {
+  display: flex;
+  align-items: center;
+}
+.flex-between {
+  display: flex;
+  flex-direction: row;
+}
+.profile-wrapper svg{
+    color: #548CA8;
+    font-size: 30px;
+}
+
+.profile-img {
+  margin-right: 30px;
+}
+.Desktop-heading-mypages {
+  display: none;
+}
+
+@media screen and (min-width: 800px) {
+  .bokade-pass-box {
+     width: 70%;
+  }
+    .left-container{
+        width: 50%;
+    }
+    #ChoosenBtn {
+        width: 50%;
+     margin: 10px auto;
+    }
+  #desktop-login {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  .close-icon-mypages {
+    position: absolute;
+    right: 30%;
+    font-size: 35px;
+    cursor: pointer;
+  }
+  .Desktop-heading-mypages {
+    display: flex;
+    font-size: 30px;
+    margin-left: 20px;
+    width: 100%;
+  }
+  .profile-wrapper h3 {
+    font-size: 22px;
+    padding: 10px;
+    font-weight: 100;
+    width: max-content;
+  }
+  .mypages-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .profile-wrapper {
+    background: #dde6e6;
+    width: 97%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    margin: auto;
+    border-radius: 10px;
+    top: 11vh;
+    margin-bottom: 13vh;
+    padding-bottom: 8px;
+    padding-top: 8px;
+  }
+
+  .bokade-pass {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+.update-modal-mypages{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #dde6e6;
+    width: 40%;
+  }
+  .input-div {
+    width: 40%;
+  }
+
+  .profile-left,
+  .profile-right,
+  .bokade-pass {
+    margin-top: 0;
+  }
+}
+

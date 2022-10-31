@@ -1,0 +1,46 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #fffcf5;
+}
+input,
+select {
+  margin: 0.6rem;
+}
+.Sportix-Section {
+  text-align: center;
+  background: rgba(84, 140, 168, 0.2);
+  width: 95%;
+  margin: auto;
+  border-radius: 10px;
+  margin-bottom: 0.7rem;
+  padding-bottom: 8px;
+  padding-top: 8px;
+}
+
+h3 {
+  font-size: 26px;
+  margin-top: 0px;
+  margin-bottom: 4px;
+  text-align: left;
+}
+.Sportix-Section p {
+  font-size: 20px;
+  font-weight: lighter;
+  text-align: left;
+  padding-right: 1.2rem;
+}
+
+@media screen and (min-width: 800px) {
+  .Sportix-Section {
+    width: 97%;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  .Sportix-Section p {
+    padding-right: 1rem;
+  }
+}

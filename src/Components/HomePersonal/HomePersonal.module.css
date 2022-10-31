@@ -1,0 +1,121 @@
+
+.PersonalButtons p {
+  font-weight: 500;
+  color: #000000;
+  background-color: hsl(201, 100%, 91%, 75%);
+  border-radius: 6px;
+  text-align: center;
+  margin: auto;
+  font-size: 20px;
+  opacity: 1;
+  z-index: 1;
+}
+
+.HeaderPersonal {
+  padding-top: 10px;
+  padding-left: 20px;
+  color: black;
+  text-align: left;
+}
+
+.PersonalButtons button {
+  border: none;
+  cursor: pointer;
+  background-size: 160%;
+  width: 35%;
+  height: 170px;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  background: linear-gradient(Transparent 50%, Transparent 50%);
+}
+
+.personal1 {
+  background: linear-gradient(
+      to right,
+      rgba(186, 209, 220, 0.6),
+      rgba(186, 209, 220, 0.6)
+    ),
+    url(../../images/personal1.jpg);
+}
+
+.personal2 {
+  background: linear-gradient(
+      to right,
+      rgba(186, 209, 220, 0.6),
+      rgba(186, 209, 220, 0.6)
+    ),
+    url(../../images/personal2.jpg);
+}
+.personal3 {
+  background: linear-gradient(
+      to right,
+      rgba(186, 209, 220, 0.6),
+      rgba(186, 209, 220, 0.6)
+    ),
+    url(../../images/personal3.jpg);
+}
+.personal4 {
+  background: linear-gradient(
+      to right,
+      rgba(186, 209, 220, 0.6),
+      rgba(186, 209, 220, 0.6)
+    ),
+    url(../../images/personal4.jpg);
+}
+
+.PersonalButtons button {
+  border: none;
+  cursor: pointer;
+  background-size: 160%;
+  width: 35%;
+  height: 170px;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  background: linear-gradient(Transparent 50%, Transparent 50%);
+}
+
+.PersonalButtons button:hover {
+  transform: scale(1.01);
+  transition: 0.2s;
+}
+
+.personaltext {
+  opacity: 1;
+}
+
+
+
+@media screen and (min-width: 800px) {
+
+
+  .HeaderPersonal p{
+    width: 90%;
+    margin-bottom: 1rem;
+  }
+  
+  .HeaderPersonal h3{
+      font-size: 30px;
+  }
+  .PersonalButtons button {
+    width: 260px;
+    height: 240px;
+    border-radius: 10px;
+    background-size: cover;
+  }
+
+  .PersonalButtons {
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .PersonalButtons p {
+    font-size: 26px;
+    width: 90%;
+  }
+
+
+}

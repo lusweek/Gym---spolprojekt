@@ -1,0 +1,114 @@
+.HeaderGym{
+  position: absolute;
+  z-index: 5;
+}
+
+.HeadWrap{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+
+
+.HeadWrap h2 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.HeaderGym h1 {
+padding-left: 20px;
+padding-top: 10px;
+color: #FFFFFF;
+font-size: 40px;
+margin: 0px;
+font-weight: 600;
+}
+
+
+.Navigation img {
+    padding: 0px;
+  }
+.Navigation ul {
+  margin: 0;
+  height: 200vh;
+  width: 100%;
+  padding: 80px;
+  background-color: black;
+  animation: 0.9s slide-right;
+  }
+  
+.MobileNavigation li {
+    left: 0;
+    margin-bottom: 25px;
+  }
+.MobileNavigation ul {
+    margin: 0;
+    height: 200vh;
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 80px;
+    padding-right: 120px;
+    background-color: rgb(77, 56, 160);
+    animation: 0.4s slide-left;
+    list-style-type: none;
+  }
+  
+.Hamburger {
+    cursor: pointer;
+    font-size: 30px;
+    color: #FFFFFF;
+    padding-top: 10px;
+    padding-right: 30px;
+  }
+
+.Navigation {
+    display: none;
+  }
+  @media screen and (min-width: 500px) {
+   .Navigation {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .MobileNavigation {
+      display: none;
+    }
+  }
+
+  .cartimg {
+  font-size: 20px;
+  padding-right: 17%;
+  padding-top: 17.5px;
+  }
+  
+  @keyframes slide-left {
+    from {
+      margin-left: 100%;
+    }
+    to {
+      margin-left: 0%;
+    }
+  }
+  @keyframes slide-out {
+    from {
+      margin-left: 0%;
+    }
+    to {
+      margin-left: 100%;
+    }
+  }
+  
+  /***** Slide Left *****/
+  
+  .fade-in {
+    animation: fadeIn ease 1s;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  

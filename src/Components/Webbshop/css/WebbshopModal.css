@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+}
+.WebbshopModal {
+  width: 100%;
+  height: 90vh;
+  background-color: white;
+  position: fixed;
+  z-index: 3;
+  left: 0;
+  top: 10vh;
+  display: flex;
+  flex-direction: column;
+}
+.modal-exit {
+  width: 2rem;
+  height: 2rem;
+  font-size: 25px;
+  font-weight: bold;
+  border: none;
+  background: none;
+  position: absolute;
+  top: 3%;
+  right: 3%;
+  cursor: pointer;
+}
+.modal-img {
+  width: 100%;
+  height: 390px;
+  object-fit: contain;
+  border-bottom: 2px solid rgba(242, 242, 242, 255);
+}
+.modal-info-container {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  border-bottom: 3px solid rgba(242, 242, 242, 255);
+}
+.modal-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.modal-info-title,
+.modal-info-price {
+  font-size: 22px;
+  color: rgba(0, 39, 84);
+}
+.modal-equipment-container {
+  display: flex;
+  position: absolute;
+}
+.modal-size-container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 5%;
+}
+.modal-size-title {
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: rgba(0, 39, 84);
+  margin-bottom: 5px;
+}
+.modal-size-block-container {
+  display: flex;
+  gap: 10px;
+}
+.modal-size-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(0, 39, 84, 0.5);
+  width: 55px;
+  height: 55px;
+  border-radius: 10px;
+}
+.modal-choose-size-popup {
+  color: red;
+  font-weight: 600;
+}
+.modal-onesize {
+  width: 120px;
+}
+.modal-add-container {
+  display: flex;
+  justify-content: center;
+}
+.modal-add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 55px;
+  border: none;
+  background: rgba(0, 39, 84, 0.5);
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 10px;
+  text-transform: uppercase;
+  margin: 0;
+}
+.modal-add-icon {
+  width: 18px;
+  margin-left: 10px;
+}
+.modal-more-info {
+  position: absolute;
+  bottom: 0;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5%;
+  border-top: 3px solid rgba(242, 242, 242, 255);
+}
+.modal-more-info-title {
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.info-modal {
+  position: absolute;
+  top: 0;
+  z-index: 6;
+  background: white;
+  width: 100%;
+  height: 42.5vh;
+}
+.info-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid rgba(242, 242, 242, 255);
+  padding: 5%;
+}
+.info-modal-title {
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: rgba(0, 39, 84);
+}
+.info-modal-desc {
+  padding: 2.5% 5%;
+}
+.desktop-info-container {
+  display: block;
+}
+.desktop-info-text,
+.desktop-info-title {
+  display: none;
+}
+@media (min-width: 800px) {
+  .WebbshopModal {
+    width: 50%;
+    height: 70vh;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 0px 1000px 1000px rgb(0 0 0 / 50%);
+    position: fixed;
+    top: 15vh;
+    left: 25%;
+  }
+  .modal-info-desc {
+    font-size: 14px;
+  }
+  .desktop-info-container {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 50%;
+  }
+  .desktop-info {
+    border-bottom: 3px solid rgba(242, 242, 242, 255);
+    padding: 0 0 5% 0;
+  }
+  .desktop-info-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(0, 39, 84);
+  }
+  .desktop-info-text {
+    font-size: 14px;
+  }
+  .desktop-info-text,
+  .desktop-info-title {
+    display: flex;
+  }
+  .modal-img {
+    width: 40%;
+    border: none;
+  }
+  .modal-more-info {
+    display: none;
+  }
+  .modal-size-title {
+    padding: 5% 0 0 0;
+  }
+  .modal-size-block {
+    width: 45px;
+    height: 40px;
+    cursor: pointer;
+  }
+  .modal-onesize {
+    width: 70px;
+  }
+  .modal-add {
+    height: 45px;
+    cursor: pointer;
+  }
+  .modal-size-title {
+    font-size: 12px;
+  }
+}
